@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <div class="header">
+    <p>
+      Search:
+      <input ng-model="$ctrl.query" />
+    </p>
+  </div>
+  <div class="sidebar">
+    
+  </div>
+  <div class="content">
+    <ul class="items">
+      <li ng-repeat="item in $ctrl.items | filter:$ctrl.query"
+            class="thumbnail card">
+            <img ng-src="{{item.imageUrl}}" alt="{{item.name}}" />
+          <p>{{item.snippet}}</p>
+        </li>
+      </ul>
+  </div>
+</div>
