@@ -1,0 +1,20 @@
+[
+  {
+    "age": 0,
+    "id": "phones",
+    "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+    "name": "Phones"
+  },
+  {
+    "age": 1,
+    "id": "clothes",
+    "imageUrl": "img/phones/motorola-xoom.0.jpg",
+    "name": "Clothes"
+  },
+  {
+    "age": 2,
+    "id": "footwears",
+    "imageUrl": "img/phones/motorola-atrix-4g.0.jpg",
+    "name": "Footwears"
+  }
+]

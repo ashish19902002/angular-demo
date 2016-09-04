@@ -1,0 +1,16 @@
+<div class="card" ng-repeat="product in carts">
+	<h4>{{product.name}}</h4>
+	<h4>Price Per Item: {{product.price}}</h4>
+    <div>
+		<button ng-click="remove_item(product)">-</button>
+		<input type="number" ng-model="product.cart_count" ng-change="change_product_count(product)" min="0">
+		<button ng-click="add_item(product)">+</button>
+	</div>	
+	<h4>Total Item Price: {{total_item_cost(product)}}</h4>
+</div>
+<div class="card">
+	<span>Total Item In Cart : {{total_item}}</span><br>
+	<span>Total Cost : {{total_cost}}</span><br>
+	<span>Coupon Code(if any) <input type="text" ng-model="coupon_code" ng-change="apply_coupon()"></span><br>
+	<span>Payable Cost: {{payable_cost}}</span>
+</div>

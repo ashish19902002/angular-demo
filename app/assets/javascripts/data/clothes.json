@@ -1,0 +1,30 @@
+[
+  {
+    "age": 0,
+    "id": "Men Jeans",
+    "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+    "name": "Men Jeans",
+    "price": 100
+  },
+  {
+    "age": 1,
+    "id": "Men Shirt",
+    "imageUrl": "img/phones/motorola-xoom.0.jpg",
+    "name": "Men Shirt",
+    "price": 100
+  },
+  {
+    "age": 2,
+    "id": "Women Jeans",
+    "imageUrl": "img/phones/motorola-atrix-4g.0.jpg",
+    "name": "Women Jeans",
+    "price": 100
+  },
+  {
+    "age": 3,
+    "id": "Women Shirt",
+    "imageUrl": "img/phones/motorola-atrix-4g.0.jpg",
+    "name": "Women Shirt",
+    "price": 100
+  }
+]

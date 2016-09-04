@@ -1,0 +1,5 @@
+<ul>
+	<li ng-repeat="category in categories" ng-class="{'selected':$index == selectedRow}" ng-click="setClickedRow($index)">
+	<h2 ng-click="setdata(category.id)">{{category.name}}</h2>
+	</li>
+</ul>

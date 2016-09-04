@@ -1,0 +1,30 @@
+[
+  {
+    "age": 0,
+    "id": "Men Casual",
+    "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+    "name": "Men Casual",
+    "price": 100
+  },
+  {
+    "age": 1,
+    "id": "Men Formal",
+    "imageUrl": "img/phones/motorola-xoom.0.jpg",
+    "name": "Men Formal",
+    "price": 100
+  },
+  {
+    "age": 2,
+    "id": "Women Casual",
+    "imageUrl": "img/phones/motorola-atrix-4g.0.jpg",
+    "name": "Women Casual",
+    "price": 100
+  },
+  {
+    "age": 3,
+    "id": "Women Formal",
+    "imageUrl": "img/phones/motorola-atrix-4g.0.jpg",
+    "name": "Women Formal",
+    "price": 100
+  }
+]

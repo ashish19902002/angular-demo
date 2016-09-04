@@ -1,0 +1,21 @@
+<div ng-view> 
+  <div ng-controller="categoryListCtrl">
+    <div class="left-sidebar">
+      <category-list></category-list>
+    </div>
+    <div class="header">
+      <p>
+        <!-- <h7 ng-click="set_default()" style="cursor:pointer">Set Default<h7> -->
+        Search:
+        <input type="text" ng-model="query"> 
+        <h7 ng-click="show_favourite()" style="cursor:pointer">(Favourite: {{favourite_list.length}})<h7>
+      </p>
+    </div>
+    <div class="content">
+      <product-list></product-list>
+    </div>
+    <div class="right-sidebar">
+      <cart-list></cart-list>
+    </div>
+  </div>
+</div>	

@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.selected {
+    background-color:black;
+    color:white;
+    font-weight:bold;
+}
+
+.header {
+    height: 40px;
+    background: #33ccff;
+    border: 2px solid darkred;
+}
+.left-sidebar {
+    width: 20%;
+    height: 700px;
+    border: 2px solid darkred;
+    margin-top: 40px;
+    float: left;
+    overflow: auto;
+}
+
+.right-sidebar {
+    padding: 1em;
+	width: 21%;
+	height: 700px;
+	border: 2px solid darkred;
+    margin-top: 1px;
+	float: right;
+    overflow: auto;
+ }
+
+.content {
+	position: fixed;
+    margin-right: 300px;
+    margin-left: 262px;
+    margin-top: 5px;
+    height: 700px;
+    width: 55%;
+    overflow: auto;
+ }
+ 
+.card {
+    box-shadow: 0 4px 8px 0 #33ccff;
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    /*background: #f00;*/
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.mark {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+    transition: 0.1s;
+    border-radius: 1px; 
+    background: #33ccff;
+}
